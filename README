@@ -1,0 +1,19 @@
+secure-pbcopy -- pbcopy(1) replacement that marks data as confidential
+
+Like pbcopy(1), takes the standard input and copies it to the system clipboard.
+Unlike pbcopy, there is currently no support for specifying the target
+pasteboard, nor the format of the data - it will always be interpreted as text.
+
+CONTRIBUTING
+
+File bug reports and pull requests at https://github.com/alyssais/secure-pbcopy,
+or mail issues and patches directly to the author.
+
+AUTHOR
+
+Alyssa Ross <hi@alyssa.is>
+
+LICENSE
+
+To the extent possible under law, Alyssa Ross has waived all copyright and
+related or neighboring rights to secure-pbcopy.
