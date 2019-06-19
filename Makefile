@@ -5,7 +5,7 @@ all: secure-pbcopy
 .SUFFIXES:
 .SUFFIXES: .c .o
 
-.PHONY: all install
+.PHONY: all install clean
 
 CFLAGS = -g
 ALL_CFLAGS = -framework AppKit $(CFLAGS)
